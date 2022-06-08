@@ -13,7 +13,7 @@ const EvolutionsList = (props) => {
         renderItem={({item}) => <PokemonItem pokemon={item} />}
         showsVerticalScrollIndicator={false}
         snapToAlignment={'start'}
-        decelerationRate={'nromal'}
+        decelerationRate={'normal'}
         snapToInterval={Dimensions.get('window').height}
       />
     </View>
